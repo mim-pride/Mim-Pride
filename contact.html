@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/glass.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="t-dark">
@@ -82,6 +85,33 @@
         </div>
         <!-- breadcrumb end -->
 
+        <!-- info section start -->
+        <section class="info-section section-padding">
+            <div class="container">
+                <div class="row align-items-center box animate__animated animate__fadeInDown">
+                    <div class="col-md-6">
+                        <div class="banner-text">
+                            <h1 class="mb-3 text-capitalize animate__animated animate__fadeIn">Palembang, Sumatera
+                                Selatan</h1>
+                            <h2 class="mb-3 animate__animated animate__fadeInLeft"><i
+                                    class="fa-solid fa-location-dot fs-2 p-2"></i>Address</i></h2>
+                            <p class="mb-4 animate__animated animate__backInUp">Jl. Srijaya Negara, Bukit Lama, Kec.
+                                Ilir Bar. I, Kota Palembang, Sumatera Selatan 30128</p>
+                            <h2 class="mb-3 animate__animated animate__fadeInLeft"><i
+                                    class="fa-solid fa-phone fs-2 p-2"></i>Phone</i></h2>
+                            <p>(0711) 353414</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-first order-md-last mb-5 mb-md-0 ">
+                        <div class="animate__animated animate__fadeInRight">
+                            <img src="images/place.jpg" alt="info img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- info section end -->
+
         <!-- contact start -->
         <section class="contact-section section-padding">
             <div class="container">
@@ -92,6 +122,36 @@
                             <h2 class="title animate__animated animate__backInUp">Reach us</h2>
                         </div>
                     </div>
+                    <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" name="fname" id="fname"
+                                    placeholder="First name">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="7"
+                                    placeholder="Write your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                                <span class="submitting"></span>
+                            </div>
+                        </div>
+                    </form>
+
                 </div>
             </div>
         </section>
@@ -121,10 +181,10 @@
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <div class="footer-item">
-                                <h3></h3>
+                                <h3>random stuffs</h3>
                                 <ul>
-                                    <li><a href="#">terms</a></li>
-                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="bubble.html">Blupblup</a></li>
+                                    <li><a href="newyear.html">Countdown</a></li>
                                     <li><a href="#"> essibility statement</a></li>
                                     <li><a href="#">help and support</a></li>
                                 </ul>
@@ -158,8 +218,12 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     <script src="js/main.js"></script>
 </body>
 
